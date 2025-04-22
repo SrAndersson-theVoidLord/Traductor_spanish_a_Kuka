@@ -31,7 +31,7 @@ function lenguajeInclusivo(texto) {
 }
 
 function zurdoMode() {
-    return "exproiese, muerte al kapitalismo, la emision es buena, muere empresario cerdo microcapitalista cis, muchas más incongruencias, etc, etc, hay mucho olor a porro";
+    return "expropiese! muerte al kapitalismo, la emisión es buena, muere empresario cerdo microcapitalista cis, (muchas más incongruencias de hippie con osde vegano), etc, etc, hay mucho olor a culo y a porro";
 }
 
 function leerTexto() {
