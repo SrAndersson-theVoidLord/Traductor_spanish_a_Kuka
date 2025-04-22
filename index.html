@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Google Traductor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="translator">
+    <div>
+        <textarea id="sourceText" placeholder="Ingrese texto..."></textarea>
+    </div>
+
+    <div>
+        <select id="languageSelect">
+            <option value="zurdo">Zurdo</option>
+            <option value="feminista">Feminista</option>
+            <option value="palermitano">Palermitano</option>
+            <option value="kircho">Kircho</option>
+        </select>
+        <button onclick="traducir()">Traducir</button>
+    </div>
+
+    <div>
+        <textarea id="translatedText" placeholder="Traducción..." readonly></textarea>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
