@@ -37,6 +37,6 @@ function zurdoMode() {
 function leerTexto() {
     const texto = document.getElementById('translatedText').value;
     const utterance = new SpeechSynthesisUtterance(texto);
-    utterance.lang = 'es-AR';
+    utterance.lang = 'es-US';
     speechSynthesis.speak(utterance);
 }
