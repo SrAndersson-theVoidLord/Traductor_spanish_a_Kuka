@@ -20,10 +20,15 @@
                 </select>
             </div>
 
-            <textarea id="sourceText" placeholder="Escriba su texto aquí..."></textarea>
-            <button onclick="traducir()">Traducir</button>
-            <textarea id="translatedText" placeholder="Traducción aparecerá aquí..." readonly></textarea>
-            <button onclick="leerTexto()">Leer en voz alta</button>
+            <div class="textareas">
+                <textarea id="sourceText" placeholder="Escriba su texto aquí..."></textarea>
+                <textarea id="translatedText" placeholder="Traducción aparecerá aquí..." readonly></textarea>
+            </div>
+
+            <div class="buttons">
+                <button onclick="traducir()">Traducir</button>
+                <button onclick="leerTexto()">Leer en voz alta</button>
+            </div>
         </div>
     </div>
 
