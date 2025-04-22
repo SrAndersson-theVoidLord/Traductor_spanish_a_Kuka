@@ -28,9 +28,15 @@ function lenguajeInclusivo(texto) {
     }).replace(/\b(\w*?)os\b/gi, function(match, p1) {
         return p1 + 'es';
     });
-
 }
 
 function zurdoMode() {
-    return "exproiese, muerte al kapitalismo, la emision es buena, muere empresario cerdo microcapitalista cis, muchas más incongruencias, etc, etc, (hay mucho olor a culo y porro)";
-} 
+    return "exproiese, muerte al kapitalismo, la emision es buena, muere empresario cerdo microcapitalista cis, muchas más incongruencias, etc, etc, hay mucho olor a porro";
+}
+
+function leerTexto() {
+    const texto = document.getElementById('translatedText').value;
+    const utterance = new SpeechSynthesisUtterance(texto);
+    utterance.lang = 'es-AR';
+    speechSynthesis.speak(utterance);
+}
